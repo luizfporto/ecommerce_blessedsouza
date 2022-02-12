@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blessed Souza</title>
+    <link rel="shortcut icon" href="imagens/logo/logo.ico" type="image/x-icon">
+
+    <!-- Themify Icons -->
+    <link rel="stylesheet" href="css/themify-icons/themify-icons.css">
+
+    <!-- Bootstrap 5 CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Estilo CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Responsivo 5 CSS -->
+    <link rel="stylesheet" href="css/responsivo.css">
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+
+    <!-- Seção Navegação -->
+    <section id="header">
+        <nav class="navbar navbar-expand-lg bg-white fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="imagens/logo/logo.jpeg" width="95" height="80" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="ti-align-justify navbar-toggler-icon"></span>
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#offers">Promoções</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#products">Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contatos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- Home -->
+    <section id="home" class="home pt-5 overflow-hidden">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="home-banner home-banner-1">
+                        <div class="home-banner-text">
+                            <h1 style="color: #fff;">Surf</h1>
+                            <h2 style="color: #fff;">Melhores Marcas</h2>
+                            <a href="#" class="btn btn-danger text-uppercase mt-4">Mais Produtos</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <div class="home-banner home-banner-2">
+                        <div class="home-banner-text">
+                            <h1 style="color: #fff;">Skate</h1>
+                            <h2 style="color: #fff;">Diversas Opções</h2>
+                            <a href="#" class="btn btn-danger text-uppercase mt-4">Mais Produtos</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true">
+                    <span class="ti-angle-left slider-icon"></span>
+                </span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true">
+                    <span class="ti-angle-right slider-icon"></span>
+                </span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!--Seção Ofertas-->
+        <div id="offers" class="offers">
+            <div class="container">
+                <div class="row">
+
+                    <!-- Caixa de ofertas 1-->
+                    <div class="col-sm-6 col-lg-4 mb-lg-0 mb-4">
+                        <a href="#">
+                            <div class="offer-box text-center position-relative">
+                                <div class="offer-inner">
+                                    <div class="offer-image position-relative overflow-hidden">
+                                        <img src="imagens/product/offer1-removebg.png" alt="ofertas" class="img-fluid">
+                                        <div class="offer-overlay"></div>
+                                    </div>
+                                    <div class="offer-info">
+                                        <div class="offer-info-inner">
+                                            <p class="heading-bigger text-capitalize">Desconto 30%</p>
+                                            <p class="offer-title-1 text-uppercase font-weight-bold">Aproveite Já</p>
+                                            <button class="btn btn-outline-danger text-uppercase mt-4">Compre agora</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Caixa de ofertas 2-->
+                    <div class="col-sm-6 col-lg-4 mb-lg-0 mb-4 d-flex flex-column justify-content-between">
+                        <a href="#">
+                            <div class="offer-box text-center position-relative mb-4 mb-sm-0 mb-lg-0">
+                                <div class="offer-inner">
+                                    <div class="offer-image position-relative overflow-hidden">
+                                        <img src="imagens/img_avulso/shoe1.png" style="width: 375px; height: 240px;" alt="ofertas" class="img-fluid">
+                                        <div class="offer-overlay"></div>
+                                    </div>
+                                    <div class="offer-info">
+                                        <div class="offer-info-inner">
+                                            <p class="heading-bigger text-capitalize">Desconto 70%</p>
+                                            <p class="offer-title-1 text-uppercase font-weight-bold">Aproveite</p>
+                                            <button class="btn btn-outline-danger text-uppercase mt-4">Compre agora</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="offer-box text-center position-relative">
+                                <div class="offer-inner">
+                                    <div class="offer-image position-relative overflow-hidden">
+                                        <img src="imagens/img_avulso/watch2.png" style="width: 375px; height: 240px;" alt="ofertas" class="img-fluid">
+                                        <div class="offer-overlay"></div>
+                                    </div>
+                                    <div class="offer-info">
+                                        <div class="offer-info-inner">
+                                            <p class="heading-bigger text-capitalize">Desconto 50%</p>
+                                            <p class="offer-title-1 text-uppercase font-weight-bold">Não perca </p>
+                                            <button class="btn btn-outline-danger text-uppercase mt-4">Compre agora</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Caixa de ofertas 3-->
+                    <div class="col-sm-6 col-lg-4 mb-lg-0 mb-4">
+                        <a href="#">
+                            <div class="offer-box text-center position-relative">
+                                <div class="offer-inner">
+                                    <div class="offer-image position-relative overflow-hidden">
+                                        <img src="imagens/product/offer2-removebg.png" alt="ofertas" class="img-fluid">
+                                        <div class="offer-overlay"></div>
+                                    </div>
+                                    <div class="offer-info">
+                                        <div class="offer-info-inner">
+                                            <p class="heading-bigger text-capitalize">Desconto 25%</p>
+                                            <p class="offer-title-1 text-uppercase font-weight-bold">Aproveite</p>
+                                            <button class="btn btn-outline-danger text-uppercase mt-4">Compre agora</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produtos em destaque-->
+    <section id="products" class="products">
+       <div class="container">
+           <div class="row">
+              <div class="col-sm-12">
+                 <div class="headline text-center mb-5">
+                    <h2 class="pb-3 position-relative d-inline-block">Produtos em Destaque</h2> 
+                 </div> 
+              </div> 
+           </div>
+           <div class="row">
+              <div class="col-sm-6 col-lg-4">
+                 <a href="#" class="d-block text-center mb-4">
+                   <div class="product-list">
+                      <div class="product-image position-relative">
+                         <span class="sale ti-announcement"> Oferta</span> 
+                         <img src="imagens/product/1.jpg" class="img-fluid product-image-first" alt="produtos">
+                         <img src="imagens/product/3.jpg" class="img-fluid product-image-secondary" alt="produtos">
+                      </div>
+                       <div class="product-name pt-3">
+                          <h3 class="text-capitalize">Camiseta Marcas</h3>
+                          <p class="mb-0 amount">R$70.00 <del>R$100.00</del></p> 
+                          <div class="py-1">
+                             <span class="ti-star"></span>
+                             <span class="ti-star"></span> 
+                             <span class="ti-star"></span> 
+                             <span class="ti-star"></span> 
+                             <span class="ti-star"></span>  
+                          </div>
+                          <button class="add_to_card ti-shopping-cart"> Adicionar ao carrinho</button>
+                       </div>
+                   </div>
+                 </a> 
+                </div> 
+              <div class="col-sm-6 col-lg-4">
+                <a href="#" class="d-block text-center mb-4">
+                  <div class="product-list">
+                     <div class="product-image position-relative">
+                         
+                        <img src="imagens/product/6.jpg" class="img-fluid product-image-first" alt="produtos">
+                        <img src="imagens/product/9.jpg" class="img-fluid product-image-secondary" alt="produtos">
+                     </div>
+                      <div class="product-name pt-3">
+                         <h3 class="text-capitalize">Moda Verão</h3>
+                         <p class="mb-0 amount">R$120.00</p> 
+                         <div class="py-1">
+                            <span class="ti-star active"></span>
+                            <span class="ti-star active"></span> 
+                            <span class="ti-star active"></span> 
+                            <span class="ti-star"></span> 
+                            <span class="ti-star"></span>  
+                         </div>
+                         <button class="add_to_card ti-shopping-cart"> Adicionar ao carrinho</button>
+                      </div>
+                  </div>
+                </a>
+                </div> 
+              <div class="col-sm-6 col-lg-4">
+           <a href="#" class="d-block text-center mb-4">
+             <div class="product-list">
+                <div class="product-image position-relative">
+                    
+                   <img src="imagens/product/20.jpg" class="img-fluid product-image-first" alt="produtos">
+                   <img src="imagens/product/21.jpg" class="img-fluid product-image-secondary" alt="produtos">
+                </div>
+                 <div class="product-name pt-3">
+                    <h3 class="text-capitalize">Polo</h3>
+                    <p class="mb-0 amount">R$200.00</p> 
+                    <div class="py-1">
+                       <span class="ti-star active"></span>
+                       <span class="ti-star active"></span> 
+                       <span class="ti-star active"></span> 
+                       <span class="ti-star active"></span> 
+                       <span class="ti-star"></span>  
+                    </div>
+                    <button class="add_to_card ti-shopping-cart"> Adicionar ao carrinho</button>
+                 </div>
+             </div>
+           </a>
+                </div>
+              <div class="col-sm-6 col-lg-4">
+                    <a href="#" class="d-block text-center mb-4">
+                      <div class="product-list">
+                         <div class="product-image position-relative">
+                            
+                            <img src="imagens/product/w6.jpg" class="img-fluid product-image-first" alt="produtos">
+                            <img src="imagens/product/w18.jpg" class="img-fluid product-image-secondary" alt="produtos">
+                         </div>
+                          <div class="product-name pt-3">
+                             <h3 class="text-capitalize">Vestidos</h3>
+                             <p class="mb-0 amount">R$150.00</p> 
+                             <div class="py-1">
+                                <span class="ti-star active"></span>
+                                <span class="ti-star active"></span> 
+                                <span class="ti-star active"></span> 
+                                <span class="ti-star active"></span> 
+                                <span class="ti-star active"></span>  
+                             </div>
+                             <button class="add_to_card ti-shopping-cart"> Adicionar ao carrinho</button>
+                          </div>
+                      </div>
+                    </a>
+                </div> 
+              <div class="col-sm-6 col-lg-4">
+                    <a href="#" class="d-block text-center mb-4">
+                      <div class="product-list">
+                         <div class="product-image position-relative">
+                            <span class="sale ti-announcement" >Oferta</span> 
+                            <img src="imagens/product/w25.jpg" class="img-fluid product-image-first" alt="produtos">
+                            <img src="imagens/product/w5.jpg" class="img-fluid product-image-secondary" alt="produtos">
+                         </div>
+                          <div class="product-name pt-3">
+                             <h3 class="text-capitalize">Moda Verão</h3>
+                             <p class="mb-0 amount">R$90.00 <del>R$120.00</del></p> 
+                             <div class="py-1">
+                                <span class="ti-star active"></span>
+                                <span class="ti-star active"></span> 
+                                <span class="ti-star active"></span> 
+                                <span class="ti-star"></span> 
+                                <span class="ti-star"></span>  
+                             </div>
+                             <button class="add_to_card ti-shopping-cart"> Adicionar ao carrinho</button>
+                          </div>
+                      </div>
+                    </a>
+                </div> 
+              <div class="col-sm-6 col-lg-4">
+                    <a href="#" class="d-block text-center mb-4">
+                      <div class="product-list">
+                         <div class="product-image position-relative">
+                            
+                            <img src="imagens/product/w3.jpg" class="img-fluid product-image-first" alt="produtos">
+                            <img src="imagens/product/w9.jpg" class="img-fluid product-image-secondary" alt="produtos">
+                         </div>
+                          <div class="product-name pt-3">
+                             <h3 class="text-capitalize">Ocasional</h3>
+                             <p class="mb-0 amount">R$100.00</p> 
+                             <div class="py-1">
+                                <span class="ti-star active"></span>
+                                <span class="ti-star active"></span> 
+                                <span class="ti-star active"></span> 
+                                <span class="ti-star"></span> 
+                                <span class="ti-star"></span>  
+                             </div>
+                             <button class="add_to_card ti-shopping-cart"> Adicionar ao carrinho</button>
+                          </div>
+                      </div>
+                    </a>
+                </div>     
+           </div>  
+        </div>
+       </div> 
+
+       <!-- Voltar ao 75%-->
+       <div class="overflow-hidden my-5">
+          <div class="row">
+             <div class="col-sm-12 up_to_off">
+                 <img src="imagens/logo/jet.jpg" alt="ofertas" class="img-fluid w-100">
+                 <div class="up_to_content">
+                    <h2>Até 70% de Desconto</h2> 
+                 </div>
+             </div> 
+          </div> 
+       </div>
+     </div>
+    </section>
+
+    <!--Seção Especial-->
+    <section id="special" class="special">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="headline text-center mb-5">
+                <h2 class="pb-3 position-relative d-inline-block">Oferta da Semana</h2>
+              </div>
+            </div>
+  
+            <div class="col-sm-12 col-lg-7 text-center text-lg-start">
+              <div class="countdown-container">
+                <h2 class="text-uppercase">Camisa Polo</h2>
+                <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                <ul class="list-unstyled countdown-counter">
+                  <li><span class="fs-1 d-block" id="days">00</span> Dias</li>
+                  <li><span class="fs-1 d-block" id="hours">00</span> Hr</li>
+                  <li><span class="fs-1 d-block" id="min">00</span> Min</li>
+                  <li><span class="fs-1 d-block" id="sec">00</span> Sec</li>
+                </ul>
+                <span class="countdown-price h3 d-block mb-4">$180.00 <del>$300.00</del></span>
+                <button type="button" class="btn btn-danger ti-shopping-cart"> Adicionar ao carrinho</button>
+              </div>
+            </div>
+            <div class="col-sm-12 col-lg-5">
+              <div class="special-img position-relative">
+                <span class="ti-announcement"> Oferta</span>
+                <img src="imagens/img_avulso/lacoste1.png" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+       </section>
+
+
+    <!--Contatos-->
+       <section id="contact">
+         <div class="contact">
+             <div class="container">
+                 <div class="mb-5 text-center">
+                   <h5>Vamos conversar</h5>
+                   <h2 class="fw-bold">Contate-Nos</h2>  
+                 </div>
+
+                 <div class="row">
+                    <div class="col-lg-5 col-md-5">
+                        <h4 class="fw-bold">Informações de contato</h4>
+                        <ul class="info list-unstyled">
+                          <li class="d-flex align-items-center">
+                            <span class="pe-3 ti-instagram fs-5"></span>
+                            <p><a href="">@blessed_souza</a></p>
+                          </li> 
+                          <li class="d-flex align-items-center">
+                            <span class="pe-3 ti-mobile fs-5"></span>
+                            <p><a href="">+55 11 99999-9999.</a></p>
+                          </li> 
+                          <li class="d-flex align-items-center">
+                            <span class="pe-3 ti-email fs-5"></span>
+                            <p><a href="">info@blessed.in</a></p>
+                          </li>
+                        </ul>
+                    </div> 
+                    <div class="col-lg-7 col-md-7 pt-lg-0 pt-md-0 pt-4">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                      <input type="text" class="form-control" name="name" id="name" placeholder="Seu nome">
+                                  </div>
+                                </div>
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                      <input type="email" class="form-control" name="email" id="email" placeholder="Seu Email">
+                                  </div>
+                                </div>
+                                <div class="col-md-12">
+                                  <div class="form-group">
+                                      <input class="textarea" name="message" cols="30" rows="4" id="message" placeholder="Digite sua mensagem">
+                                  </div>
+                                </div>
+                                <div class="col-md-12"> 
+                                  <button class="btn btn-danger"><span class="ti-direction pe-2 fs-5"></span> Enviar Mensagem</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                 </div>
+             </div>
+         </div>   
+       </section>
+
+
+       <!--Rodapé-->
+       <footer>
+          <div class="p-3 copyright">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-6 p-1 p-lg-3 text-center text-lg-start">
+                        <p class="my-0">Copyright © 2022 <a href="#">BLESSED SOUZA </a>Todos Direitos Reservados</p>
+                    </div>
+                    <div class="col-12 col-lg-6 p-1 p-lg-3 text-center text-lg-end">
+                        <p> Desenvolvido por <a href="#" target=" _blank">Luiz F. Porto</a>.</p>
+                    </div>
+                  </div>
+            </div>  
+          </div> 
+       </footer>
+
+       <!-- Voltar ao Topo-->
+       <div id="scrollUp" title="Scroll To Top">
+        <a href="#home"><span class="ti-arrow-up fs-4 text-white"></span></a>
+      </div>
+       </div>
+
+
+
+    <!-- Bootstrap 5 JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!--Main JS-->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
